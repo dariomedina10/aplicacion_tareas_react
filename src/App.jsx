@@ -10,10 +10,13 @@ function App() {
       <div className='App'>
       <div className='freecodecamp-logo-contenedor'>
         <img src={logo} className='freecodecamp-logo' alt='logo' />
-        </div>   
+        </div> 
+        <div className='tareas-lista-principal'>
+          <h1>Mis Tareas</h1>
+          </div>  
       </div>
       <p className="read-the-docs">
-        Darío Vite
+       
       </p>
     </>
   )
