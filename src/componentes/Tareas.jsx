@@ -1,10 +1,11 @@
 import React from 'react';
+import '../hoja-de-estilos/tareas.css'
 
-Function Tarea ( {texto}){
+function Tarea ( {texto}){
 
     return (
-      <div className='tarea-contenedor'>
-        <div className='tarea-texto'>
+      <div className='tarea-contenedor'> 
+        <div className='tarea-texto' >
           {texto}
         </div>
         <div className='tarea-icono'   >
@@ -16,4 +17,4 @@ Function Tarea ( {texto}){
     );
 }
 
-export defaull tarea;
+export default Tarea;
