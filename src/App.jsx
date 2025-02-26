@@ -2,6 +2,7 @@ import { useState } from 'react'
 import logo from './imagenes/freecodecamp.png';
 import './App.css'
 import Tarea from './componentes/Tareas.jsx';
+import TareaFormulario from './componentes/TareaFormulario.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
         </div> 
         <div className='tareas-lista-principal'>
           <h1>Mis Tareas</h1>
+          <TareaFormulario />
           <Tarea texto='Aprender React' />
           </div>  
       </div>
